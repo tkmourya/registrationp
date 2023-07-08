@@ -77,10 +77,6 @@
 <div class="container">
 <div class="register">
 
-<div class="item" id="Item">
-	<p th:if="${result}">[[${result}]]</p>
-</div>
-
     <form action="https://formspree.io/f/xvojogyo" method="post">
     <h2>Register</h2><br>
         <div class="form-group">
@@ -116,8 +112,6 @@
 </form>
 </div>
 </div>
-<script>
-	setInterval(() => document.getElementById('Item').style.display = 'none', 2000);
-</script>
+
 </body>
 </html>
